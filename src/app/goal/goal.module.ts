@@ -18,9 +18,8 @@ import { DateCountPipe } from '../date-count.pipe';
   ],
   imports: [
     CommonModule,
-   
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    AppRoutingModule
+
+  ]
 })
 export class AppModule { }

@@ -2,13 +2,12 @@ import { Component } from '@angular/core';
 import { Goal } from './goal';
 @Component({
   selector: 'app-root',
-  template: `
-  <app-goal></app-goal>
-  `
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 
 })
 export class AppComponent {
- 
+
 constructor(){}
 
 }
